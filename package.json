@@ -1,0 +1,23 @@
+{
+  "name": "username-generator",
+  "version": "1.0.0",
+  "description": "A package that produces random username handles based on preferences. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SowmyaaRamesh/Username-Generator-Npm-package.git"
+  },
+  "keywords": [
+    "npm",
+    "package"
+  ],
+  "author": "Sowmya Ramesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SowmyaaRamesh/Username-Generator-Npm-package/issues"
+  },
+  "homepage": "https://github.com/SowmyaaRamesh/Username-Generator-Npm-package#readme"
+}
