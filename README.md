@@ -20,7 +20,7 @@ npm install trendy-username
 
 - generateUsername(no_of_names,gender,prefix)
 
-```
+```javascript
 const generateUsername = require("trendy-username");
 
 //Without prefix
@@ -30,7 +30,6 @@ generateUsername(5, "male");
 //With prefix
 generateUsername(10, "female", "yes");
 generateUsername(10, "male", "yes");
-
 ```
 
 ## Example
