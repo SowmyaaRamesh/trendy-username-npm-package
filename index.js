@@ -36,6 +36,7 @@ function getRandomNumber(gender) {
 
 function generateUsername(count, gender, prefix = "no") {
   let username, random;
+  const username_list = [];
   for (let i = 0; i < count; i++) {
     let rand = getRandomNumber(gender);
     if (gender === "male") {
@@ -53,8 +54,9 @@ function generateUsername(count, gender, prefix = "no") {
       }
       username = random_prefix.concat(username);
     }
-    console.log(username);
+    username_list.push(username);
   }
+  return username_list;
 }
 
 loadJsonData();
