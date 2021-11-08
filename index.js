@@ -10,7 +10,6 @@ const boyPrefixes = [];
 
 function loadJsonData() {
   Object.keys(boys).forEach((name) => {
-    //console.log(name, ":", boys[name].source);
     boyNames.push(name);
   });
   Object.keys(girls).forEach((name) => {
