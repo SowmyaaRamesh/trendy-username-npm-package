@@ -34,7 +34,7 @@ function getRandomNumber(gender) {
   return Math.floor(Math.random() * length);
 }
 
-function generateUsername(count, gender, prefix = "no") {
+function generateUsername(count, gender, prefix = false) {
   let username, random;
   const username_list = [];
   for (let i = 0; i < count; i++) {
@@ -44,7 +44,7 @@ function generateUsername(count, gender, prefix = "no") {
     } else if (gender === "female") {
       username = girlNames[rand];
     }
-    if (prefix === "yes") {
+    if (prefix) {
       if (gender === "female") {
         random = Math.floor(Math.random() * girlPrefixes.length);
         random_prefix = girlPrefixes[random];
