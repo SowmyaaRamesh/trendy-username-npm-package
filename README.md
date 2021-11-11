@@ -24,8 +24,8 @@ let female_names = generateUsername(10, "female");
 let male_names = generateUsername(5, "male");
 
 //With prefix
-let female_prefix = generateUsername(10, "female", "yes");
-let male_prefix = generateUsername(10, "male", "yes");
+let female_prefix = generateUsername(10, "female", true);
+let male_prefix = generateUsername(10, "male", true);
 
 console.log(female_names);
 ```
